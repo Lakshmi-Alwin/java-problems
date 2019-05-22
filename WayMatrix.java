@@ -29,9 +29,11 @@ public class WayMatrix {
 
     public static void main(String[] args) {
         int n,iindex,jindex;
+        System.out.println("Enter the value of n");
         Scanner sc=new Scanner(System.in);
         n=sc.nextInt();
         int A[][]=new int[n][n];
+        System.out.println("Enter the cell entries for the maze");
         for(iindex=0;iindex<n;iindex++){
             for(jindex=0;jindex<n;jindex++){
                 A[iindex][jindex]=sc.nextInt();
