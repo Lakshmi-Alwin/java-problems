@@ -15,6 +15,7 @@ public class TowerOfHanoy {
     public static void main(String[] args) {
         int n;
         char A='A',B='B',C='C';
+        System.out.println("Enter the number of disks");
         Scanner sc=new Scanner(System.in);
         n=sc.nextInt();
         steps(n,A,B,C);
